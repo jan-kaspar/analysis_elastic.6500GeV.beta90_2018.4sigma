@@ -10,11 +10,11 @@ string units[];
 string unit_labels[];
 real a_cens[], b_cens[], c_cens[];
 
-units.push("L_2_F"); unit_labels.push("45-220-fr"); a_cens.push(-1); b_cens.push(240); c_cens.push(35);
-units.push("L_1_F"); unit_labels.push("45-210-fr"); a_cens.push(-1.5); b_cens.push(620); c_cens.push(230);
+units.push("L_2_F"); unit_labels.push("45-220-fr"); a_cens.push(-1); b_cens.push(0); c_cens.push(0);
+units.push("L_1_F"); unit_labels.push("45-210-fr"); a_cens.push(-1.5); b_cens.push(0); c_cens.push(0);
 
-units.push("R_1_F"); unit_labels.push("56-210-fr"); a_cens.push(0); b_cens.push(+40); c_cens.push(-400);
-units.push("R_2_F"); unit_labels.push("56-220-fr"); a_cens.push(-1); b_cens.push(+800); c_cens.push(-570);
+units.push("R_1_F"); unit_labels.push("56-210-fr"); a_cens.push(0); b_cens.push(0); c_cens.push(0);
+units.push("R_2_F"); unit_labels.push("56-220-fr"); a_cens.push(-1); b_cens.push(0); c_cens.push(0);
 
 
 xSizeDef = 12cm;

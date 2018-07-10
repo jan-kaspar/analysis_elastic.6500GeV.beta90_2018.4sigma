@@ -21,8 +21,8 @@ TH2_x_max = +10;
 TH2_y_min = -30;
 TH2_y_max = +30;
 
-string selection = "before selection";
-//string selection = "after selection";
+//string selection = "before selection";
+string selection = "after selection";
 
 //----------------------------------------------------------------------------------------------------
 
