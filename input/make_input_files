@@ -33,4 +33,4 @@ function GetOne()
 	) > "$output_file"
 }
 
-GetOne "/eos/totem/user/j/jkaspar/reco/2018_90m/version8" "TOTEM1" "347" "../DS-TOTEM1-347"
+GetOne "/eos/totem/user/j/jkaspar/reco/2018_90m/version9" "TOTEM1" "347" "../DS-TOTEM1-347"
