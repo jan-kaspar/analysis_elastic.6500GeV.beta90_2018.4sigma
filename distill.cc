@@ -120,7 +120,7 @@ int main(int argc, char **argv)
 
 		// load track data
 		fwlite::Handle< vector<CTPPSLocalTrackLite> > tracks;
-		tracks.getByLabel(event, "ctppsLocalTrackLiteProducer");
+		tracks.getByLabel(event, "ctppsLocalTrackLiteProducer", "", "ReRecoWithAlignment");
 
 		// process track data
 		for (const auto &tr : *tracks)
