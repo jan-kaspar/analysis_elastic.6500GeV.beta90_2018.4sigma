@@ -103,10 +103,10 @@ void Init_global_45b_56t()
 	*/
 
 	// analysis settings
-	anal.cut1_a = 1.; anal.cut1_c = -149.4E-6; anal.cut1_si = 10E-6;
-	anal.cut2_a = 1.; anal.cut2_c = -1.4E-6; anal.cut2_si = 2.5E-6;
+	anal.cut1_a = 1.; anal.cut1_c = 4.5E-6; anal.cut1_si = 10E-6;
+	anal.cut2_a = 1.; anal.cut2_c = -0.1E-6; anal.cut2_si = 2.5E-6;
 
-	anal.cut7_a = -1250.; anal.cut7_c = -0.036; anal.cut7_si = 0.01;
+	anal.cut7_a = -1250.; anal.cut7_c = -0.010; anal.cut7_si = 0.01;
 
 	// unfolding settings
 	//unsmearing_file = "unfolding_cf_ni_45b_56t.root";
@@ -129,10 +129,10 @@ void Init_global_45t_56b()
 	anal.fc_G_h = FiducialCut(100E-6, 0E-6, 0., 0E-6, 0.);
 	*/
 
-	anal.cut1_a = 1.; anal.cut1_c = -157.6E-6; anal.cut1_si = 10E-6;
-	anal.cut2_a = 1.; anal.cut2_c = -1.6E-6; anal.cut2_si = 2.5E-6;
+	anal.cut1_a = 1.; anal.cut1_c = -3.7E-6; anal.cut1_si = 10E-6;
+	anal.cut2_a = 1.; anal.cut2_c = +0.2E-6; anal.cut2_si = 2.5E-6;
 
-	anal.cut7_a = -1250.; anal.cut7_c = -0.017; anal.cut7_si = 0.01;
+	anal.cut7_a = -1250.; anal.cut7_c = +0.010; anal.cut7_si = 0.01;
 
 	// unfolding settings
 	//unsmearing_file = "unfolding_cf_ni_45t_56b.root";
