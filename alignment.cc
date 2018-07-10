@@ -375,8 +375,8 @@ void DoVerticalAlignment(TGraph *g_t, TGraph *gw_t, TGraph *g_b, TGraph *gw_b,
 	// determine shift range
 	double de_w = (y_max_t - y_min_t) - (y_max_b - y_min_b);
 	double s_min = min(0., de_w), s_max = max(0., de_w);
-	s_min = -1.; s_max = +1.;
-	double s_step = 0.05;
+	s_min = -0.5; s_max = +0.5;
+	double s_step = 0.025;
 	printf("\tshift range: %.2E to %.2E, shift step = %.2E\n", s_min, s_max, s_step);
 
 	// result variables
