@@ -1,0 +1,36 @@
+#!/bin/bash
+
+function GetOne()
+{
+	local base_dir="$1"
+	local ds="$2"
+	local bit="$3"
+	local output_dir="$4"
+
+	local output_file="$output_dir/input_files.h"
+
+	mkdir -p "$output_dir"
+
+	rm -rf "$output_file"
+
+	(
+		echo "#include <string>"
+		echo "#include <vector>"
+		echo ""
+		echo "std::vector<std::string> input_files;"
+		echo ""
+		echo "void InitInputFiles()"
+		echo "{"
+		echo "	input_files.clear();"
+		echo ""
+
+		for f in `eos ls $base_dir|grep _filter_${ds}_bit${bit}.root`
+		do
+			echo "	input_files.push_back(\"root://eostotem.cern.ch/$base_dir/$f\");"
+		done
+
+		echo "}"
+	) > "$output_file"
+}
+
+GetOne "/eos/totem/user/j/jkaspar/reco/2018_90m/version8" "TOTEM1" "347" "../DS-TOTEM1-347"
