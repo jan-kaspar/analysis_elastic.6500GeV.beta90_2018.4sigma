@@ -434,7 +434,7 @@ int main(int argc, char **argv)
 		double x_min=0., x_max=0., y_min=0., y_max = 0.;
 		double q_max = 0.;
 
-		if (i == 1) { x_min = -500E-6; x_max = 0E-6; y_min = -300E-6; y_max = 400E-6; q_max = 200E-6; }
+		if (i == 1) { x_min = -250E-6; x_max = 250E-6; y_min = -250E-6; y_max = 250E-6; q_max = 200E-6; }
 		if (i == 2) { x_min = 0E-6; x_max = +150E-6; y_min = 0E-6; y_max = 150E-6; q_max = 50E-6; }
 
 		if (i == 3) { x_min = -1000E-6; x_max = +1000E-6; y_min = -15.; y_max = 15.; q_max = 5.; }

@@ -23,11 +23,11 @@ string label_x[] = { "$\th_x^{*R}\ung{\mu rad}$", "$\th_y^{*R}\ung{\mu rad}$", "
 string label_y[] = { "$\th_x^{*L}\ung{\mu rad}$", "$\th_y^{*L}\ung{\mu rad}$", "$x^{*R}\ung{mm}$", "$x^{*L}\ung{mm}$", "$y^{R,F} - y^{R,N}\ung{mm}$", "$y^{L,F} - y^{L,N}\ung{mm}$", "$\De^{R-L} x^*\ung{mm}$", "$\De^{R-L} y^*\ung{mm}$" };
 string label_cut[] = { "$\De^{R-L} \th_x^{*}\ung{\mu rad}$", "$\De^{R-L} \th_y^{*}\ung{\mu rad}$", "$x^{*R}\ung{mm}$", "$x^{*L}\ung{mm}$", "$cq5$", "$cq6$", "$cq7$", "$cq8$" };
 
-real lim_x_low[] = { -500, +1, -1000, -1000, +1, +1, -400, -200 };
-real lim_x_high[] = { +0, -1, +1000, +1000, -1, -1, +200, +200 };
+real lim_x_low[] = { -250, +1, -1000, -1000, +1, +1, -400, -200 };
+real lim_x_high[] = { +250, -1, +1000, +1000, -1, -1, +200, +200 };
 
-real lim_y_low[] = { -300, +1, -0.8, -0.8, +1, +1, -1, -100 };
-real lim_y_high[] = { +400, -1, +0.8, +0.8, -1, -1, +1, +100 };
+real lim_y_low[] = { -250, +1, -0.8, -0.8, +1, +1, -1, -100 };
+real lim_y_high[] = { +250, -1, +0.8, +0.8, -1, -1, +1, +100 };
 
 real lim_q[] = { 250., 50, 10., 10., 1., 1., 2.5, 10. };
 
